@@ -37,6 +37,7 @@ The goal is to provide an end‑to‑end, reproducible pipeline that maps the pa
 ## 📁 Project Structure
 
 
+```
 .
 ├── app.py                   # Entry point for running inference / demo
 ├── README.md                # This documentation
@@ -45,11 +46,11 @@ The goal is to provide an end‑to‑end, reproducible pipeline that maps the pa
 │   └── phishing_emails.csv  # Sample phishing dataset (email text)
 ├── model/                   # Saved or exported model artifacts
 └── src/
-	├── train.py             # Training workflows for models
-	├── predict.py           # Inference / prediction utilities
-	└── anomaly.py           # Autoencoder-based anomaly detection
-	└── utils.py             # Shared helpers (preprocessing, metrics, etc.)
-
+    ├── train.py             # Training workflows for models
+    ├── predict.py           # Inference / prediction utilities
+    ├── anomaly.py           # Autoencoder-based anomaly detection
+    └── utils.py             # Shared helpers (preprocessing, metrics, etc.)
+```
 
 ---
 
@@ -70,7 +71,7 @@ The paper relies on the following datasets (used or referenced in this implement
 
 Install all Python dependencies using:
 
-
+```bash
 pip install -r requirements.txt
 ```
 
@@ -80,13 +81,13 @@ pip install -r requirements.txt
 
 Run the project entry point:
 
-```
+```bash
 python app.py
 ```
 
 Depending on your workflow, you can also run training or prediction directly:
 
-```
+```bash
 python src/train.py
 python src/predict.py
 python src/anomaly.py
