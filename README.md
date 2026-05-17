@@ -1,4 +1,4 @@
-# Implementing AI-Driven Cybersecurity: Threat Detection, Phishing Analysis, and Malware Classification Using Machine Learning and Deep Learning
+# Implementing AI-Driven Cybersecurity: Threat Detection, Phishing Analysis, and Malware Classification Using Machine Learning and Deep Learning (2210991597, 2210991655, 2210990497)
 
 This repository contains the implementation that accompanies the **AI Cybersecurity** paper. It focuses on three core security tasks implemented in code:
 
